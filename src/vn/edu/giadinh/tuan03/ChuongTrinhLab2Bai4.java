@@ -1,6 +1,6 @@
 package vn.edu.giadinh.tuan03;
 
-import java.until.Scanner;
+import java.util.Scanner;
 
 public class ChuongTrinhLab2Bai4 {
 
@@ -18,15 +18,16 @@ public class ChuongTrinhLab2Bai4 {
 
 
         switch(suLuaChon){
-            case 1: giaiPTBacI/;break;
-            case 2: giaiPTBacII; break;
-            case 3: tinhTienDien;break;
+            case 1: giaiPTBacI(); break;
+            case 2: giaiPTBacII(); break;
+            case 3: tinhTienDien(); break;
             default: System.out.println("Chon Chuc Nang Khac ");
 
         }
     }
 
     static void giaiPTBacI(){
+
         float a = 0, b = 0;
 
         if (a==0){
