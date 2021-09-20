@@ -3,8 +3,7 @@ package vn.edu.giadinh.tuan03;
 import java.util.Scanner;
 
 public class ChuongTrinhLab2Bai4 {
-
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         System.out.println("======Menu======");
         System.out.println(">>1.Giai Phuong Trinh Bac I ");
         System.out.println(">>2.Giai Phuong Trinh Bac II ");
@@ -27,11 +26,10 @@ public class ChuongTrinhLab2Bai4 {
     }
 
     static void giaiPTBacI(){
-
         float a = 0, b = 0;
 
-        if (a==0){
-            if (b==0){
+        if (a == 0){
+            if (b == 0){
                 System.out.println("PT vo so nghiem...");
             }
         }
