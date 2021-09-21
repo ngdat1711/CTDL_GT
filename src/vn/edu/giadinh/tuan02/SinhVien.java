@@ -14,7 +14,7 @@ public class SinhVien {
     Date ngaySinh;
 
     //2.Phuong Thuc
-    //<Kieu tra ve> <ten ha> <(danh sach tham so)>{......}
+    //<Kieu tra ve> <ten ham> <(danh sach tham so)>{......}
     void inThongTinSinhVien(){
         System.out.println("Ma so sinh vien: "+ MSSV);
         System.out.println("Ten sinh vien:"+ tenSinhVien);
