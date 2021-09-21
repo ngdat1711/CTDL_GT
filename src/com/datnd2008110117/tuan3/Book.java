@@ -3,10 +3,10 @@ package com.datnd2008110117.tuan3;
 public class Book {
     
     //1.Thuoc Tinh
-    String gia;
+    double gia;
     String nhaXuatBan;
-    String namXuatBan;
-    String giaBan;
+    double namXuatBan;
+    double giaBan;
     int soLuong;
     
     //2.Phuong Thuc
