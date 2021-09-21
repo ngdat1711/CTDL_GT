@@ -5,7 +5,7 @@ public class NhanVienTestDrive {
         NhanVien nhanVien;
         nhanVien = new NhanVien();
         nhanVien.tenNhanVien = "Nguyễn Văn Tèo";
-        nhanVien.luong = 5500000;
+        nhanVien.luong = 5500000d;
         nhanVien.diaChi = "1/2/3 Phường An Lạc,Quận Bình Tân, TPHCM";
         nhanVien.boPhanLamViec = "Nhân Viên Bán Hàng";
         nhanVien.ngaySinh = "1/2/2000";

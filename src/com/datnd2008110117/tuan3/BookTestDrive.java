@@ -4,10 +4,10 @@ public class BookTestDrive {
     public static void main(String[] args) {
         Book book;
         book = new Book();
-        book.gia = 100500;
+        book.gia = 100500d;
         book.nhaXuatBan = "Kim Dong";
-        book.namXuatBan = 2020;
-        book.giaBan = 150000;
+        book.namXuatBan = 2020d;
+        book.giaBan = 150000d;
         book.soLuong = 100;
         
         

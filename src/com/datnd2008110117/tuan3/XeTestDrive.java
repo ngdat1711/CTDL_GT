@@ -7,7 +7,7 @@ public class XeTestDrive {
         xe.tenChuXe = "Nguyễn Văn Tèo Em";
         xe.hangSanXuat = "Toyota";
         xe.dong = "Vios 2017";
-        xe.soGiayPhepLaiXe = 123456789;
+        xe.soGiayPhepLaiXe = 12345678l;
         xe.dungTichXang = "42 lít ";
         
         xe.inThongTinXeHoi();
