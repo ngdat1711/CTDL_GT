@@ -22,11 +22,12 @@ public class SinhVienTestDrive {
             System.out.print("  Họ và Tên: ");
             String hoTen = varInput.nextLine();//enter
 
-            System.out.print("  Quê Quán: ");
-            String queQuan = varInput.nextLine();
-
             System.out.print("  Tuổi: ");
             int tuoi = varInput.nextInt();
+            varInput.nextLine();
+
+            System.out.print("  Quê Quán: ");
+            String queQuan = varInput.nextLine();
 
             
 
