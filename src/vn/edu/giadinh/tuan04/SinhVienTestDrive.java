@@ -6,7 +6,7 @@ public class SinhVienTestDrive {
     public static void main(String[] args) {
 
         //tạo ds Sinh Viên
-        SinhVien[] danhSachSV = new SinhVien[4];
+        SinhVien[] danhSachSV = new SinhVien[2];
 
         //Nhập vào từ bàn phím
         Scanner varInput = new Scanner (System.in);
@@ -24,16 +24,20 @@ public class SinhVienTestDrive {
 
             System.out.print("  Tuổi: ");
             int tuoi = varInput.nextInt();
-            varInput.nextLine();
+            varInput.nextLine();//nhận vào phím ENTER
 
             System.out.print("  Quê Quán: ");
             String queQuan = varInput.nextLine();
 
-            
-
-
             danhSachSV[i] = new SinhVien(MSSV, hoTen, tuoi, queQuan);
 
+            //In Danh Sách Sinh Viên
+            System.out.println("======In danh sách SV sau khi nhập=======");
+            for (SinhVien sinhVien : danhSachSV){
+
+                sinhVien.inThongTinSV();
+
+            }
             
             //varInput.nextLine();//nhận vào phím ENTER
 
