@@ -1,5 +1,8 @@
 package vn.edu.giadinh.tuan04;
 
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 import java.util.Scanner;
 
 public class SinhVienTestDrive {
@@ -30,21 +33,45 @@ public class SinhVienTestDrive {
             String queQuan = varInput.nextLine();
 
             danhSachSV[i] = new SinhVien(MSSV, hoTen, tuoi, queQuan);
+        }
 
-            //In Danh Sách Sinh Viên
-            System.out.println("======In danh sách SV sau khi nhập=======");
-            for (SinhVien sinhVien : danhSachSV){
 
-                sinhVien.inThongTinSV();
+        //In Danh Sách Sinh Viên
+        System.out.println("======In danh sách SV sau khi nhập=======");
+        for (SinhVien sinhVien : danhSachSV){
+
+            sinhVien.inThongTinSV();
+
+        }
+        
+
+        List list = Arrays.asList(danhSachSV);
+        
+        //Bộ so sánh
+        Comparator comparator = new Comparator<SinhVien>(){
+
+            @Override
+            public int compare(SinhVien o1, SinhVien o2){
+
+                return Integer.compare(o1.tuoi, o2.tuoi);
 
             }
             
-            //varInput.nextLine();//nhận vào phím ENTER
+        };
 
+        //list.sort(/**truyền vào đây đối số cần thiết để so sánh  */);
+        list.sort(comparator);
 
+        //In Danh Sách Sinh Viên
+        System.out.println("======In danh sách SV sau khi so sánh=======");
+        for (SinhVien sinhVien : danhSachSV){
 
+            sinhVien.inThongTinSV();
 
         }
+        
+        //varInput.nextLine();//nhận vào phím ENTER
+
     }
 
     
