@@ -20,7 +20,12 @@ public class Car {
     }
     void inThongTinChuXe(){
 
-        System.out.println("Tên chủ Xe: "+ tenChuXe + "Hãng Sản Xuất: "+ hangSanXuat + "Dòng Xe: "+ dongxe + "giấy phép lưu hành xe" + giayPhep + "Dung tích Xăng: "+dungTichXang);
+        System.out.println("Tên chủ Xe: "+ tenChuXe);
+        System.out.println("Hãng Sản Xuất: "+ hangSanXuat);
+        System.out.println("Dòng Xe: "+ dongxe);
+        System.out.println("Mã số giấy phép lưu hành xe" + giayPhep);
+        System.out.println("Dung tích Xăng: "+dungTichXang);
     }
+
     
 }

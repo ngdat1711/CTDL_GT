@@ -14,27 +14,25 @@ public class CarTestDrive {
         Scanner varInput = new Scanner(System.in);
         System.out.println(" Nhập danh sách car ");
 
-        for(x = 0; x< danhSachCar.length; x++){
-            System.out.println("Nhập Tên Chủ xe thứ "+ (x+1));
+        for(int i = 0; i< danhSachCar.length; i++){
+            System.out.println("Nhập tên chủ xe thứ " + (i+1));
 
-            System.out.println(" Tên chủ xe: ");
+            System.out.print(" Tên chủ xe: ");
             String tenChuXe = varInput.nextLine();
 
-            System.out.println(" Hãng Sản XUất: ");
+            System.out.print(" Hãng Sản XUất: ");
             String hangSanXuat = varInput.nextLine();
 
-            System.out.println(" Dòng Xe: ");
+            System.out.print(" Dòng Xe: ");
             String dongXe = varInput.nextLine();
 
-            System.out.println(" Giấy phép lưu hành xe: ");
+            System.out.print("Mã Số Giấy phép lưu hành xe: ");
             String giayPhep = varInput.nextLine();
 
-            System.out.println(" Dung Tích Xăng: ");
+            System.out.print(" Dung Tích Xăng: ");
             int dungTichXang = varInput.nextInt();
 
-            danhSachCar[x] = new Car(tenChuXe, hangSanXuat, dongXe, giayPhep, dungTichXang);
-
-
+            danhSachCar[i] = new Car(tenChuXe, hangSanXuat, dongXe, giayPhep, dungTichXang);;
         }
         
         System.out.println("===In danh sách chủ xe sau khi nhập======");
