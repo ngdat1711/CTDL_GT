@@ -2,9 +2,10 @@ package vn.edu.giadinh.tuan04;
 
 public class Dog {
 
-    String name;
-    int size;
-    String color;
+    public String name;
+    public int size;
+    public String color;
+    
     public Dog(){}
 
     public Dog(int s){

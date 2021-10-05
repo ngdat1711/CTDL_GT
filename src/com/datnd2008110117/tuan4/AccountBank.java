@@ -1,7 +1,6 @@
 package com.datnd2008110117.tuan4;
 
 public class AccountBank {
-`
     String tenTaiKhoan;
     int soTaiKhoan;
     int soDuTaiKhoan;
