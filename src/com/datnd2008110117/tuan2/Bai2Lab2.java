@@ -10,16 +10,16 @@ public class Bai2Lab2 {
         double a1;
         double a2;
         double delta;
-        Scanner pTB1 = new Scanner(System.in);
+        Scanner pTB2 = new Scanner(System.in);
 
         System.out.print("Nhập X: ");
-        x = pTB1.nextInt();
+        x = pTB2.nextInt();
 
         System.out.print("Nhập Y: ");
-        y = pTB1.nextInt();
+        y = pTB2.nextInt();
 
         System.out.print("Nhập Z: ");
-        z = pTB1.nextInt();
+        z = pTB2.nextInt();
 
         if(x == 0){
             if(y == 0){
@@ -41,7 +41,7 @@ public class Bai2Lab2 {
             delta = Math.pow(y, 2) - 4 * x * z;
             if(delta > 0){
 
-                System.out.println("Phương trình có 2 nghiệm phân biệt: ");
+                System.out.println("Phương trình có 2 nghiệm phân biệt");
                 a1 = (double)( - y + Math.sqrt(delta)) / 2 * x;
             
                 System.out.printf("+ a1 = %.2f", a1);

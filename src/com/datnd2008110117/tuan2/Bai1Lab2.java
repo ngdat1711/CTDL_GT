@@ -25,7 +25,7 @@ public class Bai1Lab2 {
             }
         }
         else{
-            c = (double)-b/a;
+            c = (double) - b / a;
             System.out.println("Nghiệm của phương trình " + c);
         }
 
