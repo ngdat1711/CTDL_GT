@@ -42,9 +42,9 @@ public class AccountBankTestDrive {
             public int compare(AccountBank o1, AccountBank o2){
 
                 return Integer.compare(o1.soDuTaiKhoan, o2.soDuTaiKhoan);
-            
-        };
-        list.sort(Comparator);
+            };
+        }
+        list.sort(comparator);
     }
     
 }
