@@ -12,7 +12,7 @@ public class Bai2Lab5 {
         ArrayList<String> menu = new ArrayList<String>();
         menu = nhap();
         xuatHoVaTen(menu);
-        sapXepGiam(menu);
+        sapXepGiamDan(menu);
         xuatNgauNhien(menu);
         Scanner bienTen = new Scanner(System.in);
 
@@ -50,7 +50,7 @@ public class Bai2Lab5 {
     }
 
     //Sắp xếp giảm dần
-    static void sapXepGiam (ArrayList<String>danhSachGiamDanVaXuatDanhSach){
+    static void sapXepGiamDan (ArrayList<String>danhSachGiamDanVaXuatDanhSach){
         Collections.sort(danhSachGiamDanVaXuatDanhSach);
             System.out.println("Sắp xếp Phần Tử Giảm Dần: "+ danhSachGiamDanVaXuatDanhSach);
 
