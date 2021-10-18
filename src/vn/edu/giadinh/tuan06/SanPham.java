@@ -1,5 +1,7 @@
 package vn.edu.giadinh.tuan06;
 
+import org.graalvm.compiler.debug.CSVUtil.Escape;
+
 public class SanPham {
     
     String tenSanPham;
@@ -32,5 +34,15 @@ public class SanPham {
         System.out.print("  |Đơn giá: " + donGia + "|");
         System.out.print("  |Giảm giá: " + giamGia + "|");
         System.out.println("  |Thuế Nhập Khẩu: " + thueNhapKhau + "|");
+    }
+    public boolean equals(SanPham other){
+        boolean match = true;
+
+        if((tenSanPham.equals(other.tenSanPham)) && 
+        donGia == other.donGia){
+            match = true;
+
+        }else match = false;
+        return match;
     }
 }
