@@ -1,8 +1,8 @@
 package vn.edu.giadinh.tuan07;
 
-public class MyLinkedListTestDrive {
+public class MyLinkedListTestDrive12 {
     public static void main(String[] args) {
-        MyLinkedList myLinkedList = new MyLinkedList();
+        MyLinkedList1 myLinkedList = new MyLinkedList1();
 
         myLinkedList.add(4);
         myLinkedList.add(3);

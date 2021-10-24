@@ -1,4 +1,4 @@
-package vn.edu.giadinh.tuan07;
+package com.datnd2008110117.tuan7;
 
 public class Node {
     // nội dung 
@@ -11,8 +11,9 @@ public class Node {
     public Node(int d){
         data = d;
     }
-    public Node (int d, Node n){
+    public Node(int d, Node n){
         data = d;
         next = n;
     }
+    
 }

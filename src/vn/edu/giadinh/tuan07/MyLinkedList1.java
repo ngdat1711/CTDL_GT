@@ -1,13 +1,13 @@
 package vn.edu.giadinh.tuan07;
 
-public class MyLinkedList {
-    Node head = null;//danh sách rỗng
-    Node tail = null;
-    public MyLinkedList(){}
+public class MyLinkedList1 {
+    Node1 head = null;//danh sách rỗng
+    Node1 tail = null;
+    public MyLinkedList1(){}
     
     void add(int data){
         //tạo node mới 
-        Node newNode = new Node(data);
+        Node1 newNode = new Node1(data);
 
         if(head == null){// thêm 1 nút vào danh sách rỗng
             head = newNode;
@@ -23,7 +23,7 @@ public class MyLinkedList {
 
     }
     void print(){
-        Node current = head;
+        Node1 current = head;
         if(head == null){
             System.out.println("danh sách rỗng");
             return;
