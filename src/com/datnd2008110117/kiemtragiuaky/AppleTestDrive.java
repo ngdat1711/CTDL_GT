@@ -14,9 +14,27 @@ public class AppleTestDrive {
         while(true){
             Apple apple = new Apple();
             apple.nhapThongTinTao();
-            dsTao.nextDouble();
+            dSTao.nextDouble();
             danhSachTao.add(apple);
 
+            System.out.println("Nhập thêm: YES/NO ");
+
+
+        }
+    }
+    public void xuatDanhSachTao(){
+        for(Apple apple : danhSachTao ){
+            apple.inThongTinTao();
+
+        }
+    }
+
+    public void timMauTao(){
+        System.out.println("    Màu Táo cần tìm là: ");
+        for(Apple apple: danhSachTao){
+
+            if(dSTao.nextdoule().equals(apple.mauSac))
+            apple.inThongTinTao();
         }
     }
     
