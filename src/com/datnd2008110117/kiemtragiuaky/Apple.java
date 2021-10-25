@@ -17,7 +17,7 @@ public class Apple {
 
     }
 
-    void inThongTinApple(){
+    void inThongTinTao(){
         System.out.println("Mã số ID: " + ma);
         System.out.println("Khối lượng: " + khoiLuong + "gam");
         System.out.println("Màu Sắc của táo: " + mauSac);
@@ -25,13 +25,16 @@ public class Apple {
 
     }
 
-    public void nhapThongTinApple() {
-        System.out.println("Mã id: ");
+    public void nhapThongTinTao() {
+        System.out.println("Mã số ID: ");
         ma = tao.nextInt();
+
         System.err.println("Khối Lượng: ");
         khoiLuong = tao.nextDouble();
-        System.out.println("Màu sắc: ");
+
+        System.out.println("Màu sắc của táo: ");
         mauSac = tao.nextLine();
+
     }
 }
     
