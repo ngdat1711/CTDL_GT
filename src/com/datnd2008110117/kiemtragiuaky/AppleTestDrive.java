@@ -22,14 +22,15 @@ public class AppleTestDrive {
 
         }
     }
-    public void xuatDanhSachTao(){
+    
+    static void xuatDanhSachTao(){
         for(Apple apple : danhSachTao ){
             apple.inThongTinTao();
 
         }
     }
 
-    public void timMauTao(){
+    static void timMauTao(){
         System.out.println("    Màu Táo cần tìm là: ");
         for(Apple apple: danhSachTao){
 
