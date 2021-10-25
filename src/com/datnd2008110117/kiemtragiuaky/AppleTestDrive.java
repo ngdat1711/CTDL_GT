@@ -17,7 +17,7 @@ public class AppleTestDrive {
             dSTao.nextDouble();
             danhSachTao.add(apple);
 
-            System.out.println("Nhập thêm: YES/NO ");
+            System.out.println("    Nhập thêm: YES/NO ");
 
 
         }
@@ -33,7 +33,7 @@ public class AppleTestDrive {
         System.out.println("    Màu Táo cần tìm là: ");
         for(Apple apple: danhSachTao){
 
-            if(dSTao.nextdoule().equals(apple.mauSac))
+            if(dSTao.nextString().equals(apple.mauSac))
             apple.inThongTinTao();
         }
     }
