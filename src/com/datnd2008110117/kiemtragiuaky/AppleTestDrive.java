@@ -4,18 +4,20 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class AppleTestDrive {
-    public static void main(String[] args) {
+
         Scanner dSTao = new Scanner(System.in);
         ArrayList<Apple> danhSachTao = new ArrayList<>();
     
-    } 
+    
 
-    static void nhapDanhSach(){
+    static void nhapDanhSachTao(){
         while(true){
             Apple apple = new Apple();
             apple.nhapThongTinTao();
             dSTao.nextDouble();
-            danhSachTao.add(apple);
+            
+            danhSachTao
+            .add(apple);
 
             System.out.println("    Nhập thêm: YES/NO ");
 

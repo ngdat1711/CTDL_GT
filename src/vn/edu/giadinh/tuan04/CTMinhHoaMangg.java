@@ -47,7 +47,7 @@ public class CTMinhHoaMangg {
 
         //mảng có kiểu dữ liệu tham chiếu đối tượng
         
-        Dog[] danhSachDog = new Dog[7];
+        /*Dog[] danhSachDog = new Dog[7];
 
         Dog dog0 = new Dog(10, "đen" ,"tèo" );
         Dog dog1 = new Dog(5, "hồng" , "tèo em");
@@ -72,7 +72,7 @@ public class CTMinhHoaMangg {
         danhSachDog[3].inThongTin();
         danhSachDog[4].inThongTin();
         danhSachDog[5].inThongTin();
-        danhSachDog[6].inThongTin();
+        danhSachDog[6].inThongTin();*/
 
 
 
